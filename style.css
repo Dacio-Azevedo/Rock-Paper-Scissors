@@ -11,6 +11,49 @@
     gap: 100px;
 }
 
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+.gameInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+    width: 50%;
+}
+
+#matchResult {
+    display: flex;
+    flex-direction: column;
+    color: lightseagreen;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#scores {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    color: lightseagreen;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+
 button {
     padding: 20px 40px;
     border-radius: 10px;
